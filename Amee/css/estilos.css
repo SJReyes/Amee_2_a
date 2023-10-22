@@ -159,7 +159,7 @@ body{
     width: 40px;
 }
 
-/* Knowledge */
+/* Knowledge */ /* corregir espacio de margenes*/
 
 .knowledge{
     background-color: #e5e5f7;
@@ -391,7 +391,7 @@ body{
     margin-bottom: 30px;
 }
 
-/* Footer */
+/* Footer */ /* corregir newsletter*/
 
 .footer{
     background-color: #1D293f;
@@ -430,8 +430,51 @@ body{
     flex-wrap: wrap;
 }
 
+.footer__inputs{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+}
 
+.footer__input{
+    background-color: #fff;
+    height: 50px;
+    display: block;
+    padding-left: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    margin-right: 16px;
+}
 
+.footer__submit{
+    margin-left: auto;
+    display: inline-block;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #2091f9;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 6px;
+}
 
+.footer__copy{
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
 
+.footer__copyright{
+    font-weight: 300;
+}
 
+.footer__icons{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.footer__img{
+    width: 30px;
+}
