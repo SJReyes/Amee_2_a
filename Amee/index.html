@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMEE</title>
-    <link rel="shortcut icon" href="./image/favicon_2.png" type="image/x.icon">
+    <link rel="shortcut icon" href="./image/favicon_2.png" type="image/x.icon"> <!-- imagen logo-->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
@@ -15,7 +15,7 @@
             <h2 class="nav_title">AMEE</h2>
         </div>
 
-        <ul class="nav__link nav__link--menu">
+        <ul class="nav__link nav__link--menu"> <!--Menú contenido página -->
             <li class="nav__items">
                 <a href="#" class="nav__links">Inicio</a>
             </li>
@@ -28,13 +28,15 @@
             <li class="nav__items">
                 <a href="#" class="nav__links">Blog</a>
             </li>
-            <img src="./image/x_menu.svg" alt="" class="nav__close">
-        </ul>
+            <li>
+                <img src="./image/x_menu.svg" alt="" class="nav__close"> <!--imagen cerrar menu-->
+            </li>
+            </ul>
         <div class="nav__menu">
-            <img src="./image/Menu.svg" alt="" class="nav__img">
+            <img src="./image/Menu.svg" alt="" class="nav__img"><!--imagen menu hamburguesa-->
         </div>
     </nav>
-    <section class="hero__container container">
+    <section class="hero__container container"> <!--Titulo principal de la pag-->
         <h1 class="hero__title">Servicio de Emergencia Médicas</h1>
         <p class="hero__paragraph">Servicio de emergencias médicas y traslados en ambulancia.<br>
             Atención médica a domicilio.<br>
@@ -43,5 +45,243 @@
         <a href="#" class="cta">Sumate a Nuestra Familia</a>
     </section>
     </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle"> Cuales Son Nuestros Servicios </h2>
+            <p class="about__paragraph"> Los Servicios bla bla bla bla </p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./image/cruz.svg" alt="" class="about__icon">
+                    <h3 class="about__title">Ambulancias</h3>
+                    <p class="about__paragraph">Ambulancias bla bla bla bla</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./image/cruz.svg" alt="" class="about__icon">
+                    <h3 class="about__title">Servicios contratado</h3>
+                    <p class="about__paragraph">Ambulancias bla bla bla bla</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./image/cruz.svg" alt="" class="about__icon">
+                    <h3 class="about__title">plus</h3>
+                    <p class="about__paragraph">Ambulancias bla bla bla bla</p>
+                </article>
+            </div>
+        </section>
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Conocé Nuestros Servicios</h2>
+                    <p class="knowledge__paragraph">Conocé Nuestros Servicios bla bla bla bla</p>
+                    <a href="#" class="cta">Conocé Nuestros Servicios</a>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./image/familia_arrib.jpg" class="knowledge__img" alt="">
+                </figure>
+
+            </div>
+
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle"> Obten el mejor plan que se amolde a tus necesidades </h2>
+            
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name"> Flexbox </p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price_features">Flexbox</p>
+                        <p class="price_features">Layouts</p>
+                        <p class="price_features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">contrata ahora </a>
+                </div>
+
+                <div class="price__element price__element--best">
+                    <p class="price__name"> Grid bla bla </p>
+                    <h3 class="price__price">$3333/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price_features">Grid</p>
+                        <p class="price_features">Implicit Grid</p>
+                        <p class="price_features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">contrata ahora </a>
+                </div>
+                
+                <div class="price__element">
+                    <p class="price__name"> Animaciones bla bla </p>
+                    <h3 class="price__price">$44444/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price_features">Animaciones 22222</p>
+                        <p class="price_features">transitionnnnnnn 33333</p>
+                        <p class="price_features">Render website </p>
+                    </div>
+
+                    <a href="#" class="price__cta">contrata ahora </a>
+                </div>
+
+
+            </div>
+        </section>
+        
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./image/flecha_left.svg" alt="" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonio 1 mi nombre <span class="testimony_course">servicio de emergencia</span></h2>
+                        <p class="testimony__review"> Lorem ipsum dolor sit amet consectetur adipiscing elit </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./image/familia_pasto.jpg" alt="" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body " data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonio 2 mi nombre <span class="testimony_course">servicio de emergencia</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipiscing elit, scelerisque fringilla dapibus nisl mauris montes duis, cubilia nibh nullam pellentesque ante proin.  </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./image/familia_cama.jpg" alt="" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonio 3 mi nombre <span class="testimony_course">servicio de emergencia</span></h2>
+                        <p class="testimony__review"> Lorem ipsum dolor sit amet consectetur adipiscing elit, scelerisque fringilla dapibus nisl mauris montes duis, cubilia nibh nullam pellentesque ante proin. Congue vehicula interdum aliquet commodo cum proin vitae fusce, per facilisis euismod posuere libero pellentesque sed hac, et faucibus feugiat potenti in himenaeos duis. </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./image/f_sillon.jpg" alt="" class="testimony__img">
+                    </figure>
+                </section>
+                
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonio 4 mi nombre <span class="testimony_course">servicio de emergencia</span></h2>
+                        <p class="testimony__review"> Lorem ipsum dolor sit . </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./image/familia_arrib.jpg" alt="" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./image/flecha_right.svg" alt="" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas Frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum dolor sit amet consectetur adipiscing elit, scelerisque fringilla dapibus nisl mauris montes duis, cubilia nibh nullam pellentesque ante proin. </p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Pregunta 1
+                            <span class="questions__arrow">
+                                <img src="./image/flecha_depleg.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quidem doloribus incidunt voluptates, alias explicabo cumque aliquam placeat impedit mollitia. Est ex, ducimus quia adipisci voluptatem deleniti tenetur vitae aspernatur.</p>
+
+                    </div>
+                </article>
+            
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Pregunta 2 
+                            <span class="questions__arrow">
+                                <img src="./image/flecha_depleg.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+                            <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipiscing elit, scelerisque fringilla dapibus nisl mauris montes duis, cubilia nibh nullam pellentesque ante proin. Congue vehicula interdum aliquet commodo cum proin vitae fusce, per facilisis euismod posuere libero pellentesque sed hac, et faucibus feugiat potenti in himenaeos duis.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Pregunta 3
+                            <span class="questions__arrow">
+                                <img src="./image/flecha_depleg.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipiscing elit, scelerisque fringilla dapibus nisl mauris montes duis, cubilia nibh nullam pellentesque ante proin. Congue vehicula interdum aliquet commodo cum proin vitae fusce, per facilisis euismod posuere libero pellentesque sed hac, et faucibus feugiat potenti in himenaeos duis.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Pregunta 4
+                            <span class="questions__arrow">
+                                <img src="./image/flecha_depleg.svg" alt="" class="questions__img">
+                            </span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipiscing elit, scelerisque fringilla dapibus nisl mauris montes duis, cubilia nibh nullam pellentesque ante proin. Congue vehicula interdum aliquet commodo cum proin vitae fusce, per facilisis euismod posuere libero
+                </article>
+            </section>
+
+        </section>
+
+        <section class="questions__offer">
+            <h2 class="subtitle"> Estás listo para formar parte de nuestra gran familia</h2>
+            <p class="questions__copy"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nam iure ab debitis cumque quisquam minus vel? Ipsa assumenda nisi repudiandae, nihil perspiciatis ratione iusto aliquam autem aliquid atque rerum.</p>
+            <a href="" class="cta">contactanos ahora</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title"> Servicio de Emergencia</h2>
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form">
+                <h2 class="footer__newsletter"> Suscribete a la Newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input">
+                    <input type="submit" value="Suscribirse" class="footer__submit">
+                </div>
+            </form>
+        </section>
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./image/facebok.svg" alt="" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./image/insta.svg" alt="" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./image/wsp.svg" alt="" class="footer__img"></a>
+            </div>
+            <h3 class="footer__copyright"> Derechos reservados &copy; AMEE</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"> </script>
+    <script src="./js/questions.js"> </script>
 </body>
 </html>
